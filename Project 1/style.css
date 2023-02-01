@@ -1,1 +1,16 @@
+*{
+    font-family: sans-serif;
+    border: 2px solid red;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(1fr,9);
+    grid-template-rows: repeat(1fr,9);
+    width: 900px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
